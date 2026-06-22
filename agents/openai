@@ -1,1 +1,8 @@
-
+interface:
+  display_name: "Astrologischer Geburtshoroskop-Deutungs-Agent"
+  short_description: "Erstellt symbolische, reflektierende Geburtshoroskop-Deutungen aus Geburtsdaten oder Chart-Positionen."
+  default_prompt: "Deute ein Geburtshoroskop symbolisch, nicht deterministisch und mit klaren Grenzen."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools: []
